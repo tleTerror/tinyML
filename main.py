@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow.lite as tflite
 
 # Load TensorFlow Lite model
-interpreter = tflite.Interpreter(model_path="mobilenet_v1_1.0_224_quant.tflite")
+interpreter = tflite.Interpreter(model_path="mobilenet_v3_1.0_224_quant.tflite")
 interpreter.allocate_tensors()
 
 # Load class labels from file
