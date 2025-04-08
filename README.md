@@ -11,7 +11,7 @@ Unlike traditional object classifiers, this project is designed for:
 - **Scalability:** Can be easily adapted for **IoT applications, robotics, smart home controls**, and more.
 
 ##  Features
-✅ Uses a **pre-trained MobileNetV1 model** optimized for low-latency inference.
+✅ Uses a **pre-trained MobileNetV3 model** optimized for low-latency inference.
 ✅ Supports real-time inference from **webcam or external cameras**.
 ✅ Displays predictions live on screen with an easy-to-use **fullscreen UI**.
 ✅ Works efficiently on **edge devices** without requiring heavy computational resources.
@@ -24,7 +24,7 @@ Unlike traditional object classifiers, this project is designed for:
 📁 Gesture_Recognition
 │── 📄 main.py                 # Main script to run gesture recognition
 │── 📄 labels.txt              # Class labels for MobileNetV1 model
-│── 📄 mobilenet_v1_1.0_224_quant.tflite # TFLite model file
+│── 📄 mobilenet_v3_1.0_224_quant.tflite # TFLite model file
 │── 📄 README.md               # Project Documentation
 ```
 
@@ -61,7 +61,7 @@ python main.py
 - Runs on **Raspberry Pi, Jetson Nano, and low-power IoT devices**.
 
 ### **2️. Lightweight Model**
-- Uses **MobileNetV1 Quantized TFLite**, optimized for low-latency inference.
+- Uses **MobileNetV3 Quantized TFLite**, optimized for low-latency inference.
 - Runs seamlessly on **Edge Impulse** for easy deployment.
 
 ### **3️. Real-Time Processing** 
@@ -70,7 +70,7 @@ python main.py
 
 ### **4️. Customization & Expandability** 
 - Can be **re-trained with custom gestures** using **Edge Impulse**.
-- Supports **new models** by replacing `mobilenet_v1_1.0_224_quant.tflite`.
+- Supports **new models** by replacing `mobilenet_v3_1.0_224_quant.tflite`.
 
 ---
 
