@@ -49,6 +49,7 @@ cd gesture-recognition-tflite
 python main.py
 ```
 3️. The **webcam** will open, and predictions will appear on the screen.
+
 4️. Press **'q'** to quit the application.
 
 ---
